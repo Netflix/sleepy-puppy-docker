@@ -18,6 +18,11 @@ Stopping
 -------------
 > docker-compose stop
 
+Try It Out
+-------------
+Launch web browser and connect to your docker container's IP over http
+
+
 Architecture
 -------------
 
