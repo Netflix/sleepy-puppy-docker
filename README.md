@@ -8,9 +8,24 @@ This repo utilizes docker compose to launch a cluster of containers to support t
 
 ----------
 
+###Requirements
+* Latest version of [Docker Toolbox](https://www.docker.com/toolbox)
+* Running boot2docker vm
+* Terminal with all docker env variables set
 
 Starting
 -------------
+First determine the ip address of your boot2docker vm
+
+> boot2docker ip
+
+Replace the host variable in docker-compose.yaml with that IP
+
+```
+...
+    host: <YOUR IP ADDRESS HERE>
+...
+```
 
 > docker-compose up
 
@@ -20,7 +35,8 @@ Stopping
 
 Try It Out
 -------------
-Launch web browser and connect to your docker container's IP over http
+Launch web browser and connect to your docker container's IP over http. 
+The default credientials are `admin/password`
 
 
 Architecture
