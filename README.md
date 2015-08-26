@@ -19,12 +19,10 @@ First determine the ip address of your boot2docker vm
 
 > boot2docker ip
 
-Replace the host variable in docker-compose.yaml with that IP
+Replace the host variable in `docker-compose.yaml` with that IP
 
 ```
-...
     host: <YOUR IP ADDRESS HERE>
-...
 ```
 
 > docker-compose up
