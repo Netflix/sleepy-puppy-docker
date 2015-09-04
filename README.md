@@ -10,14 +10,14 @@ This repo utilizes docker compose to launch a cluster of containers to support t
 
 ###Requirements
 * Latest version of [Docker Toolbox](https://www.docker.com/toolbox)
-* Running boot2docker vm
+* A vm you have created with docker-machine
 * Terminal with all docker env variables set
 
 Starting
 -------------
-First determine the ip address of your boot2docker vm
+First determine the ip address of your docker vm
 
-> boot2docker ip
+> docker-machine ls
 
 Replace the host variable in `docker-compose.yaml` with that IP
 
@@ -81,5 +81,3 @@ For production use, you will want to modify these values.
 The username for the postgres database is `postgres`.  The password for this database is actually set in the api-start.sh file found within the sleepy-puppy-web container.  This password is set to `password`.
 
 You may wish to change this password for production use.
-
-
