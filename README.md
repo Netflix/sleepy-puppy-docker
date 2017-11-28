@@ -8,7 +8,7 @@ This repo utilizes docker compose to launch a cluster of containers to support t
 
 ----------
 
-###Requirements
+## Requirements
 * Latest version of [Docker Toolbox](https://www.docker.com/toolbox)
 * A vm you have created with docker-machine
 * Terminal with all docker env variables set
