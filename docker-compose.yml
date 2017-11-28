@@ -8,7 +8,7 @@ sleepy-puppy-web:
   volumes:
     - /usr/local/src/sleepy-puppy/sleepypuppy/static
   environment:
-    DEBUG: False
+    # DEBUG: False
     sleepypuppy_db: postgresql://postgres:password@postgres/sleepypuppydb
     secret_key: 5(15ds+i2+%ik6z&!yer+ga9m=e%jcqiz_5wszg)r-z!2--b2d
     csrf_session_key: 5(18ds+i2+%ik6z&!yer+ga9m=e%jcqiz_5wszg)r-z!2--b2d
